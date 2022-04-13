@@ -1,4 +1,4 @@
-Vue Cli 章節資源
+# Vue Cli 章節資源
 安裝 Node.js
 參考 : Gulp 課程：https://courses.hexschool.com/p/gulp 安裝流程的部分均可直接預覽 (1-3, 1-4)
 
@@ -20,9 +20,6 @@ Axios https://github.com/axios/axios
 
 Vue Axios https://www.npmjs.com/package/vue-axios
 
-運行 Vue 開發環境 npm run serve
-
-編譯 Production 版本 npm run build
 
 CLI 常用指令
 通用指令 (Mac, Windows 共用)
@@ -54,8 +51,15 @@ Manually select features ->	//手動安裝
 
 -> 3.x (Preview)
 -> n (預設)
--> Sass/SCSS (with node-sass)
+-> Sass/SCSS (with dart-sass)
 -> ESLint + Standard config (建議)   or   ESLint + Airbnb config (細節要求高,課程示範)
 -> Lint on save	//存檔進行檢視
 -> In dedicated config files	//獨立檔案型式
 -> N (詢問是否存設定檔案)
+
+Vue CLI 安裝的版本號為 v4，選擇 Sass/SCSS (with node-sass)。
+Vue CLI 安裝的版本號為 v5，只能選擇 Sass/SCSS (with dart-sass) 。
+
+運行 Vue 開發環境 npm run serve
+
+編譯 Production 版本 npm run build
