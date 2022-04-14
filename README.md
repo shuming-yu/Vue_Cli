@@ -45,7 +45,7 @@ Manually select features ->	//手動安裝
 - Choose Vue version	//Vue安裝版本
 - Babel	//ES6.7.8.9版本編譯成可運行JS
 - Router
-- Vuex	//狀態管理工具
+- Vuex	//狀態管理工具(暫不安裝)
 - CSS Pre-processors	//CSS 預處理器
 - Linter / Formatter	//檢視程式碼品質工具
 
@@ -63,3 +63,27 @@ Vue CLI 安裝的版本號為 v5，只能選擇 Sass/SCSS (with dart-sass) 。
 運行 Vue 開發環境 npm run serve
 
 編譯 Production 版本 npm run build
+
+
+
+CLI GUI Install -> vue ui
+
+新增 -> 在此新增新專案
+
+gui_demo + 包管理器 : npm + 初始化git倉庫 -> 手動 ->
+
+- Choose Vue version	//Vue安裝版本
+- Babel	//ES6.7.8.9版本編譯成可運行JS
+- Router
+- CSS Pre-processors	//CSS 預處理器
+- Linter / Formatter	//檢視程式碼品質工具
+
+-> 3.x (Preview)
+-> n (預設)
+-> Sass/SCSS (with dart-sass)
+-> ESLint + Airbnb config (細節要求高,課程示範)  or  ESLint + Standard config (建議)
+-> Lint on save	//存檔進行檢視
+-> 新增專案,不保存預設
+
+
+
