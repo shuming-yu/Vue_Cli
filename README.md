@@ -20,8 +20,9 @@ Axios https://github.com/axios/axios
 
 Vue Axios https://www.npmjs.com/package/vue-axios
 
+-------------------------------------------------------------------------------
 
-CLI 常用指令
+- CLI 常用指令
 通用指令 (Mac, Windows 共用)
 Nodejs 版本
 node -v
@@ -37,6 +38,8 @@ vue -V
 
 Windows 上輸入指令出現「因為這個系統上已停用指令碼執行，所以無法載入...」的問題
 參考 : https://israynotarray.com/other/20200510/1067127387/
+
+-------------------------------------------------------------------------------
 
 課程中運用到的指令
 建立專案 vue create {{ 專案名稱 }} ->
@@ -64,9 +67,9 @@ Vue CLI 安裝的版本號為 v5，只能選擇 Sass/SCSS (with dart-sass) 。
 
 編譯 Production 版本 npm run build
 
+-------------------------------------------------------------------------------
 
-
-CLI GUI Install -> vue ui
+- CLI GUI Install -> vue ui
 
 新增 -> 在此新增新專案
 
