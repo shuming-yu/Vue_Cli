@@ -1,4 +1,7 @@
 # Vue Cli 章節資源
+參考 : https://book.vue.tw/CH3/3-1-vue-cli-introduction.html
+安裝 ESLint
+參考 : https://israynotarray.com/javascript/20210218/4003233584/
 安裝 Node.js
 參考 : Gulp 課程：https://courses.hexschool.com/p/gulp 安裝流程的部分均可直接預覽 (1-3, 1-4)
 
