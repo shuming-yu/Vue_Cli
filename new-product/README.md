@@ -46,3 +46,12 @@ npm install @vee-validate/i18n
 Vue 報錯誤 : Missing space before function parentheses
 參考 : https://www.jianshu.com/p/9081a28c1ac9
 
+-------------------------------------------------------------------------
+
+### 確認 Vue_Cli\new-product
+
+npm run build  ->  產生 dist 檔案  ->  首先可測試開啟 dist 內的 index.html (無資訊,F12跳錯誤)
+
+vue ui  ->  設定  ->  Vue CLI  ->  公開路徑 /dist/  -> 保存修改
+
+確認 dist 檔案下 -> index.html 內的檔案路徑更改為 /dist/js
