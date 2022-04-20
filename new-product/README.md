@@ -23,6 +23,13 @@ npm run lint
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
+Vue 報錯誤 : Missing space before function parentheses
+參考 : https://www.jianshu.com/p/9081a28c1ac9
+
+Vue 報錯誤 : Component name “xxx“ should always be multi-word vue/multi-word-component-names
+參考 : https://blog.csdn.net/M_Nobody/article/details/123307330
+vue.config.js -> add lintOnSave: false
+
 ------------------------------------------------------------------------
 
 ### 確認 Vue_Cli\new-product
@@ -42,15 +49,12 @@ npm install @vee-validate/rules
 or with npm
 npm install @vee-validate/i18n
 ```
-
-Vue 報錯誤 : Missing space before function parentheses
-參考 : https://www.jianshu.com/p/9081a28c1ac9
-
 -------------------------------------------------------------------------
 
 ### 確認 Vue_Cli\new-product
 
 npm run build  ->  產生 dist 檔案  ->  首先可測試開啟 dist 內的 index.html (無資訊,F12跳錯誤)
+```
 
 vue ui  ->  設定  ->  Vue CLI  ->  公開路徑 /dist/  -> 保存修改
 

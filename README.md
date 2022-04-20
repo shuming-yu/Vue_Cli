@@ -23,6 +23,9 @@ Axios https://github.com/axios/axios
 
 Vue Axios https://www.npmjs.com/package/vue-axios
 
+Github Pages 教學連結 - 59:34 開始
+教學影片 : https://www.youtube.com/watch?v=njlABvVRB68
+
 -------------------------------------------------------------------------------
 
 ## CLI 常用指令
