@@ -38,24 +38,21 @@ VeeValidate 參考 : https://vee-validate.logaretm.com/v4/
 
 install with npm
 npm install vee-validate --save
-```
 
 Getting Started -> 左方 Global Validators -> 右方 @vee-validate/rules
 or with npm
 npm install @vee-validate/rules
-```
 
 左方 Localization (i18n) -> 右方 Using @vee-validate/i18n
 or with npm
 npm install @vee-validate/i18n
-```
+
 -------------------------------------------------------------------------
 
 ### 確認 Vue_Cli\new-product
 
 npm run build  ->  產生 dist 檔案  ->  首先可測試開啟 dist 內的 index.html (無資訊,F12跳錯誤)
-```
 
-vue ui  ->  設定  ->  Vue CLI  ->  公開路徑 /dist/  -> 保存修改
+vue ui  ->  設定  ->  Vue CLI  ->  公開路徑 /xxx/dist/ -> 保存修改
 
-確認 dist 檔案下 -> index.html 內的檔案路徑更改為 /dist/js
+確認 dist 檔案下 -> index.html 內的檔案路徑更改為 /xxx/dist/js
