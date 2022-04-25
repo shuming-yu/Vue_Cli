@@ -1,9 +1,7 @@
 # Vue Cli 章節資源
 - 參考 : https://book.vue.tw/CH3/3-1-vue-cli-introduction.html
-安裝 ESLint
-- 參考 : https://israynotarray.com/javascript/20210218/4003233584/
-安裝 Node.js
-- 參考 : Gulp 課程：https://courses.hexschool.com/p/gulp 安裝流程的部分均可直接預覽 (1-3, 1-4)
+- 安裝 ESLint 參考 : https://israynotarray.com/javascript/20210218/4003233584/
+- 安裝 Node.js 參考 : Gulp 課程：https://courses.hexschool.com/p/gulp 安裝流程的部分均可直接預覽 (1-3, 1-4)
 
 Nodejs 官方網站連結: https://nodejs.org/en/
 
@@ -26,7 +24,6 @@ Vue Axios https://www.npmjs.com/package/vue-axios
 Github Pages 教學連結 - 59:34 開始
 教學影片 : https://www.youtube.com/watch?v=njlABvVRB68
 
--------------------------------------------------------------------------------
 
 ## CLI 常用指令
 通用指令 (Mac, Windows 共用)
@@ -45,7 +42,6 @@ vue -V
 Windows 上輸入指令出現「因為這個系統上已停用指令碼執行，所以無法載入...」的問題
 參考 : https://israynotarray.com/other/20200510/1067127387/
 
--------------------------------------------------------------------------------
 
 ## 課程中運用到的指令
 建立專案 vue create {{ 專案名稱 }} ->
@@ -72,8 +68,6 @@ Vue CLI 安裝的版本號為 v5，只能選擇 Sass/SCSS (with dart-sass) 。
 運行 Vue 開發環境 npm run serve
 
 編譯 Production 版本 npm run build
-
--------------------------------------------------------------------------------
 
 ## CLI GUI Install -> vue ui
 
