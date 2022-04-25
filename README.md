@@ -15,8 +15,6 @@ Vue Cli 4.x 同時可建立 Vue 2.x 及 Vue 3.x 的環境，無論你是要開�
 ## 其它相關連結
 以下為課程中會用到的相關連結
 
-Vue Router https://next.router.vuejs.org/zh/index.html
-
 Axios https://github.com/axios/axios
 
 Vue Axios https://www.npmjs.com/package/vue-axios
@@ -24,6 +22,11 @@ Vue Axios https://www.npmjs.com/package/vue-axios
 Github Pages 教學連結 - 59:34 開始
 教學影片 : https://www.youtube.com/watch?v=njlABvVRB68
 
+Vue Router https://next.router.vuejs.org/zh/index.html
+注意：Vue 3 搭配的 Router 版本在網址中會有 "next" 的字樣，如：router.vuejs.org 則是 Vue 2 版本的路由
+
+Vue Router章節的所有操作紀錄範例：https://github.com/Wcc723/Vue3-Coures-Router-Demo/commits/master
+如果需要參考時，請注意 git 排序是逆向的，也可依據 Commit 名稱尋找，找到後可直接透過 hash 文字打開該章節所調整的片段
 
 ## CLI 常用指令
 通用指令 (Mac, Windows 共用)
