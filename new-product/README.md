@@ -51,8 +51,12 @@ npm install @vee-validate/i18n
 
 ### 確認 Vue_Cli\new-product
 
-npm run build  ->  產生 dist 檔案  ->  首先可測試開啟 dist 內的 index.html (無資訊,F12跳錯誤)
+npm run build  ->  產生 dist 檔案  ->  首先可測試開啟 dist 內的 index.html (無資訊,F12跳錯誤),不調整直接push的話, dist 檔案不會上傳到git
 
-vue ui  ->  設定  ->  Vue CLI  ->  公開路徑 /xxx/dist/ -> 保存修改
+xxx(專案) -> .gitignore 檔案將 /dist/ 刪除後, dist檔案就可 push 到 git 上
+
+vue ui  ->  設定  ->  Vue CLI  ->  公開路徑新增 /xxx(專案)/dist/ -> 保存修改
 
 確認 dist 檔案下 -> index.html 內的檔案路徑更改為 /xxx/dist/js
+
+後續 GitHub Pages 測試
