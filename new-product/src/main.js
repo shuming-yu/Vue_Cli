@@ -21,8 +21,8 @@ setLocale('zh_TW') // 設定預設語系
 
 const app = createApp(App).use(router)
 
-app.component('VForm', Form)
-app.component('VField', Field)
+app.component('Form', Form)
+app.component('Field', Field)
 app.component('ErrorMessage', ErrorMessage)
 
 app.mount('#app')

@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunknew_product"]=self["webpackChunknew_product"]||[]).push([[129],{129:function(n,r,u){u.r(r),u.d(r,{default:function(){return d}});var e=u(3396);function t(n,r){return(0,e.wg)(),(0,e.iD)("div",null," Hi!!我是新增的頁面!! ")}var c=u(89);const i={},a=(0,c.Z)(i,[["render",t]]);var d=a}}]);
+//# sourceMappingURL=129.04c2f86e.js.map
