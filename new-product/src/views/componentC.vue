@@ -1,3 +1,3 @@
 <template>
-    Hi~ 我是元件A
+    元件C啦!!!!
 </template>

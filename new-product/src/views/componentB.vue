@@ -1,3 +1,3 @@
 <template>
-    元件B
+    Hello~元件B!!
 </template>
