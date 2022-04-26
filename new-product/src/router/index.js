@@ -18,7 +18,14 @@ const routes = [
   {
     path: '/newpage',
     name: 'newpage',
-    component: () => import ('../views/NewPage.vue')
+    component: () => import ('../views/NewPage.vue'),
+    children: [{
+      path: 'a',
+      component: () => import('../views/componentA.vue'),
+    },{
+      path: 'b',
+      component: () => import('../views/componentB.vue'),
+    }]
   }
 ]
 
