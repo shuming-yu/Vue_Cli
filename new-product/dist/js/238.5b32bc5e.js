@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunknew_product"]=self["webpackChunknew_product"]||[]).push([[238],{9238:function(n,e,r){function u(n,e){return" Hi~ 我是元件A "}r.r(e),r.d(e,{default:function(){return o}});var t=r(89);const c={},f=(0,t.Z)(c,[["render",u]]);var o=f}}]);
+//# sourceMappingURL=238.5b32bc5e.js.map

@@ -26,6 +26,10 @@ const routes = [
       path: 'b',
       component: () => import('../views/componentB.vue'),
     },{
+      /* 後面加上 /: 名稱自訂 - (動態路由)*/
+      path: 'dynamicRouter/:id',
+      component: () => import('../views/DynamicRouter.vue'),
+    },{
       path: 'namedview',
       component: () => import('../views/namedView.vue'),
       children: [{

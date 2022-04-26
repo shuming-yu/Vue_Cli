@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunknew_product"]=self["webpackChunknew_product"]||[]).push([[168],{6168:function(n,e,r){r.r(e),r.d(e,{default:function(){return f}});var c=r(3396);const t=(0,c._)("h2",null,"命名路由",-1),u={class:"row"},s={class:"col-6"},l={class:"col-6"};function o(n,e){const r=(0,c.up)("router-view");return(0,c.wg)(),(0,c.iD)(c.HY,null,[t,(0,c._)("div",u,[(0,c._)("div",s,[(0,c.Wm)(r,{name:"left"})]),(0,c._)("div",l,[(0,c.Wm)(r,{name:"right"})])])],64)}var a=r(89);const i={},d=(0,a.Z)(i,[["render",o]]);var f=d}}]);
+//# sourceMappingURL=168.7a84e8e0.js.map
