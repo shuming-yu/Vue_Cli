@@ -27,8 +27,21 @@ const routes = [
       component: () => import('../views/componentB.vue'),
     },{
       /* 後面加上 /: 名稱自訂 - (動態路由)*/
-      path: 'dynamicRouter/:id',
+      path: 'dynamicrouter/:id',
       component: () => import('../views/DynamicRouter.vue'),
+    },{
+      /* 後面加上 /: 名稱自訂 - (動態路由)*/
+      path: 'dynamicrouterprops/:id',
+      component: () => import('../views/DynamicRouterProps.vue'),
+      // props: () => ({
+      //   id: '639ea6167e856e32',  // 寫死方式
+      // }),
+      props: (route) => {
+        console.log('route', route);
+        return{
+          id: route.params.id,  // 動態方式
+        }
+      }
     },{
       path: 'namedview',
       component: () => import('../views/namedView.vue'),
