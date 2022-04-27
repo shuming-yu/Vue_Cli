@@ -58,6 +58,9 @@ const routes = [
           right: () => import('../views/componentA'),
         }
       }]
+    },{
+      path: 'routernavigation',
+      component: () => import('../views/RouterNavigation.vue'),
     }]
   }
 ]

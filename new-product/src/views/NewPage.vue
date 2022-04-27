@@ -22,6 +22,11 @@
                     元件 C2A
                 </router-link>
             </div>
+                <div class="list-group">
+                <router-link to="/newpage/routernavigation" class="list-group-item list-group-item-action">
+                    路由導覽
+                </router-link>
+            </div>
         </div>
         <div class="col-8">
             <router-view></router-view>
